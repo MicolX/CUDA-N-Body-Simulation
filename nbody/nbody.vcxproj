@@ -42,7 +42,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\OpenGL\Include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\OpenGL\Include;D:\NVIDIA\Samples\common\inc;$(IncludePath)</IncludePath>
     <LibraryPath>D:\OpenGL\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
