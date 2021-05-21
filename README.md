@@ -1,4 +1,5 @@
 # CUDA-N-Body-Simulation
+<h1>CS677: "Parallel Programming for Many-core Processors" Final Project</h1>
 <li> CUDA 9.2 </li>
 <li> OpenGL 3.3 </li>
 <li> Visual Studio 2017 </li><br>
