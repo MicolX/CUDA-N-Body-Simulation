@@ -548,7 +548,6 @@ int bin_mode(GLFWwindow* window)
 
 		clean_bin(bin, capacity, overflow);
 		assign_bin(bin, location, capacity, overflow);
-		std::cout << "overflow: " << overflow.size() << std::endl;
 		accsf3 = cuda_bin_caller(bin, location, accs, offsets, LENGTH * LENGTH * LENGTH);
 
 		for (unsigned int i = 0; i < NUM_OF_ENTITY; i++)
